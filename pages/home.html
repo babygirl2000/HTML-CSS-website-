@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <span class="span">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <a href="#">Eduford</a>
+            </span>
+
+            <div class="links">
+                <ul class="nav-links">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <li><a href="/pages/home.html">HOME</a></li>
+                    <li><a href="/pages/about.html">ABOUT</a></li>
+                    <li><a href="/pages/Course.html">COURSE</a></li>
+                    <li><a href="/pages/blog.html">BLOG</a></li>
+                    <li><a href="/pages/contact.html">CONTACT</a></li>
+                </ul>
+
+            </div> <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text">
+            <p class="main-text">
+                World's Biggest University
+            </p>
+            <p class="subtitle">
+                Here you can learn all you need to know,
+                you can learn to code here HTML,CSS and JAVASCRIPT<br>
+                and how to google inorder to code
+            </p>
+            <a href="#" class="btn"> click to learn more</a>
+
+        </div>
+    </header>
+
+    <section id="course">
+        <div class="cover">
+            <div class="first">
+                <h2>Courses we offer</h2>
+                <p>choses the path you want to follow</p>
+            </div>
+            <div class="cards-course">
+                <div class="intermediate">
+                    <p class="first">Intermediate</p>
+                    <p class="second">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quos minus, enim facere
+                        aliquam, vel facilis, consequatur ad
+                        libero quis nobis at. Rerum quo possimus
+                        nam inventore natus vitae voluptatum non?
+                    </p>
+                </div>
+                <div class="intermediate">
+                    <p class="first">Degree</p>
+                    <p class="second">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quos minus, enim facere
+                        aliquam, vel facilis, consequatur ad
+                        libero quis nobis at. Rerum quo possimus
+                        nam inventore natus vitae voluptatum non?
+                    </p>
+                </div>
+                <div class="intermediate">
+                    <p class="first">Post Graduation</p>
+                    <p class="second">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quos minus, enim facere
+                        aliquam, vel facilis, consequatur ad
+                        libero quis nobis at. Rerum quo possimus
+                        nam inventore natus vitae voluptatum non?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="global">
+        <div class="first">
+            <h2>Our Global Campus</h2>
+            <p>our recent buildings </p>
+        </div>
+        <div class="wrap">
+
+            <img class="image" src="/pages/building2.jpg" alt="">
+            <img class="image" src="/pages/building.jpg" alt="">
+            <img class="image" src="/pages/build.jpg" alt="">
+        </div>
+    </div>
+
+    <section>
+        <div class="facilities">
+            <div class="first">
+                <h2>Our Global Campus</h2>
+                <p>our recent buildings </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="round">
+                <img class="img" src="/pages/building.jpg" alt="">
+                <p class="bottom-head">World Class Library</p>
+                <p class="secondp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Odio quam, ratione doloribus dolorum, dolore magni eum.</p>
+            </div>
+
+            <div  class="round">
+                <img class="img" src="/pages/building.jpg" alt="">
+                <p class="bottom-head">World Class Library</p>
+                <p class="secondp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Odio quam, ratione doloribus dolorum, dolore magni eum.</p>
+            </div>
+
+            <div  class="round">
+                <img class="img" src="/pages/building.jpg" alt="">
+                <p class="bottom-head">World Class Library</p>
+                <p class="secondp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Odio quam, ratione doloribus dolorum, dolore magni eum.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var times = document.querySelector(".nav-links");
+        function showMenu() {
+            times.style.right = "0px"
+        }
+        function hideMenu() {
+            times.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
